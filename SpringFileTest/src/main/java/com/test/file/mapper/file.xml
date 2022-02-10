@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="file">
+	
+	<insert id="add" parameterType="com.test.file.BoardDTO">
+		insert into tblFileBoard (seq, name, subject, regdate, orgfilename, filename)
+			values (seqFileBoard.nextVal, #{name}, #{subject}, default, #{orgfilename}, #{filename})
+	</insert>
+	
+	<select id="list" resultType="com.test.file.BoardDTO">
+		select * from tblFileBoard order by seq desc
+	</select>
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
