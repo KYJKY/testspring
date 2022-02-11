@@ -1,0 +1,17 @@
+출근 전 정리
+1. SQL 
+2. Spring (Java - oop)
+3. JAvaScript (ES6)
+
+
+pom.xml
+> SpringBegin > 3개의 dependency가져오기
+
+web.xml
+> 인코딩 필터
+
+root-context.xml
+> MyBatis + log4j + fileupload
+
+servlet-context.xml
+> tiles, AOP***
